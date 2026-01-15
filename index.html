@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Lankan Full Contact Karate - Shitoku-kai</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- JotForm Chatbot Script -->
+    <script src='https://cdn.jotfor.ms/agent/embedjs/019bb337b32876dd842ea8d72391c40bdc58/embed.js'></script>
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader"></div>
+        <div class="loading-text">SHITOKU-KAI</div>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-fist-raised"></i>
+                <div>SHITOKU<span>-KAI</span></div>
+            </div>
+            <div class="burger" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active" onclick="closeMenu()">Home</a></li>
+                <li><a href="#about" onclick="closeMenu()">About</a></li>
+                <li><a href="#why" onclick="closeMenu()">Why Us</a></li>
+                <li><a href="#achievements" onclick="closeMenu()">Achievements</a></li>
+                <li><a href="#classes" onclick="closeMenu()">Classes</a></li>
+                <li><a href="#social-media" onclick="closeMenu()">Connect</a></li>
+                <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+                <li><a href="#contact" class="nav-cta" onclick="closeMenu()">Free Trial</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>SHITOKU-KAI KARATE</h1>
+            <p class="hero-subtitle">Sri Lankan Full Contact Karate</p>
+            <p>Building Strong Bodies, Minds, and Character Through Martial Arts Excellence. Where virtue meets victory.</p>
+            <div class="cta-container">
+                <a href="#classes" class="cta-btn">
+                    <span>View Classes</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#contact" class="cta-btn secondary">
+                    <span>Free Trial</span>
+                    <i class="fas fa-calendar-alt"></i>
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator" onclick="scrollToAbout()">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Shitoku-kai</h2>
+            <p class="section-subtitle">Where tradition meets innovation in martial arts education. Forging champions in body, mind, and spirit since inception.</p>
+            
+            <div class="about-grid">
+                <div class="about-text">
+                    <h3>Our Philosophy & Mission</h3>
+                    <p>Shitoku-kai transcends traditional karate training. We are a martial arts education group dedicated to cultivating strong bodies, sharp minds, and unwavering courtesy through authentic full-contact karate.</p>
+                    <p>The name "Shi-toku" embodies our core philosophy: "Martial arts is the entrance (Shi) to reach virtue (Toku)." Our ultimate goal is empowering each individual "to win their own life."</p>
+                    <p>Victory means different things to each person: championship trophies, health, confidence, courage against adversity, social contribution, or self-discovery. Every aspiration is honored. We provide the disciplined framework, expert guidance, and supportive community to help you achieve yours.</p>
+                    
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Students Trained</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">100+</span>
+                            <span class="stat-label">Tournament Wins</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="principles-box">
+                    <h3>The Seven Pillars of Shitoku</h3>
+                    <ul>
+                        <li><strong>Seek True Strength:</strong> Pursue authentic power through martial discipline</li>
+                        <li><strong>Sharpen Mind & Technique:</strong> Refine your skills and mental focus simultaneously</li>
+                        <li><strong>Embrace Knowledge:</strong> Conquer fear through understanding and preparation</li>
+                        <li><strong>Honor Courtesy:</strong> Respect yourself, others, and the art</li>
+                        <li><strong>Practice Reflection:</strong> Continuously assess and improve</li>
+                        <li><strong>Cultivate Gratitude:</strong> Appreciate the journey and contribute positively</li>
+                        <li><strong>Walk the Path:</strong> Commit to lifelong progress on the road to virtue</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Section -->
+    <section id="why">
+        <div class="container">
+            <h2 class="section-title">Why Choose Karate? Why Choose Us?</h2>
+            <p class="section-subtitle">Discover the transformative power of authentic full-contact karate with Sri Lanka's premier training organization.</p>
+            
+            <div class="why-grid">
+                <div class="why-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Elite Full-Contact Training</h3>
+                    <p>Authentic, practical karate focused on real-world effectiveness and tournament excellence. Our proven system develops formidable fighters.</p>
+                </div>
+                <div class="why-card">
+                    <i class="fas fa-brain"></i>
+                    <h3>Mind Mastery</h3>
+                    <p>Develop unshakeable focus, discipline, and mental resilience. Our training fortifies the mind as much as the body.</p>
+                </div>
+                <div class="why-card">
+                    <i class="fas fa-users"></i>
+                    <h3>World-Class Community</h3>
+                    <p>Join a brotherhood/sisterhood of dedicated practitioners. Train alongside champions in a supportive, motivating environment.</p>
+                </div>
+                <div class="why-card">
+                    <i class="fas fa-trophy"></i>
+                    <h3>Proven Championship System</h3>
+                    <p>Our competition team consistently dominates national and international tournaments. Train with winners.</p>
+                </div>
+                <div class="why-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Expert Master Instructors</h3>
+                    <p>Learn from internationally certified Shihan and Sensei with decades of teaching and competition experience.</p>
+                </div>
+                <div class="why-card">
+                    <i class="fas fa-heartbeat"></i>
+                    <h3>Holistic Development</h3>
+                    <p>Beyond fighting skills, we build character, confidence, leadership, and life skills that extend far beyond the dojo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section with Slideshow -->
+    <section id="achievements">
+        <div class="container">
+            <h2 class="section-title">Tournament Legacy</h2>
+            <p class="section-subtitle">A tradition of excellence. Our champions consistently dominate the national and international stage.</p>
+            
+            <div class="achievement-tabs">
+                <button class="tab-btn active" data-tab="nations7">
+                    <i class="fas fa-medal"></i> 7th Nationals
+                </button>
+                <button class="tab-btn" data-tab="nations8">
+                    <i class="fas fa-trophy"></i> 8th Nationals
+                </button>
+                <button class="tab-btn" data-tab="alliance2025">
+                    <i class="fas fa-crown"></i> 2025 Alliance
+                </button>
+            </div>
+            
+            <!-- 7th Nationals Slideshow - Updated with local WebP images -->
+            <div id="nations7" class="achievement-content active">
+                <div class="swiper swiper-nations7">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="images/7th (6) (1).webp" alt="7th Nationals Championship">
+                            <div class="slide-content">
+                                <h3 class="slide-title">Gold Medal Victory</h3>
+                                <p>Team Kumite Championship - 7th National Karate Championships</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/7th (4)(1).webp" alt="Team Celebration">
+                            <div class="slide-content">
+                                <h3 class="slide-title">Team Dominance</h3>
+                                <p>Overall Team Champions - 7th National Karate Championships</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/7th (1)PNG (1).webp" alt="Kata Excellence">
+                            <div class="slide-content">
+                                <h3 class="slide-title">Technical Mastery</h3>
+                                <p>Perfect Kata Execution - 7th National Karate Championships</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/7th (3) (1).webp" alt="Youth Champions">
+                            <div class="slide-content">
+                                <h3 class="slide-title">Future Champions</h3>
+                                <p>Youth Division Winners - 7th National Karate Championships</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            
+            <!-- 8th Nationals Slideshow -->
+            <div id="nations8" class="achievement-content">
+                <div class="swiper swiper-nations8">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="https://images.unsplash.com/photo-1542744094-3a31f272c490?q=80&w=1000" alt="8th Nationals Championship">
+                            <div class="slide-content">
+                                <h3 class="slide-title">Back-to-Back Champions</h3>
+                                <p>Consecutive Championship Win - 8th National Karate Championships</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?q=80&w=1000" alt="Intense Sparring">
+                            <div class="slide-content">
+                                <h3 class="slide-title">Combat Excellence</h3>
+                                <p>Elite Sparring Performance - 8th National Karate Championships</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://images.unsplash.com/photo-1603959719445-b15dc8e76d92?q=80&w=1000" alt="Team Strategy">
+                            <div class="slide-content">
+                                <h3 class="slide-title">Strategic Victory</h3>
+                                <p>Perfect execution of game plans - 8th National Karate Championships</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://images.unsplash.com/photo-1580274455191-1c62238fa333?q=80&w=1000" alt="Award Ceremony">
+                            <div class="slide-content">
+                                <h3 class="slide-title">Multiple Awards</h3>
+                                <p>Gold medals across categories - 8th National Karate Championships</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            
+            <!-- 2025 Alliance Slideshow -->
+            <div id="alliance2025" class="achievement-content">
+                <div class="swiper swiper-alliance2025">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=1000" alt="International Victory">
+                            <div class="slide-content">
+                                <h3 class="slide-title">International Champions</h3>
+                                <p>Alliance Championship Gold - 2025 International Alliance Championship</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://images.unsplash.com/photo-1617713963083-7e8f57b5d9e5?q=80&w=1000" alt="Championship Moment">
+                            <div class="slide-content">
+                                <h3 class="slide-title">Historic Achievement</h3>
+                                <p>First International Gold - 2025 International Alliance Championship</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://images.unsplash.com/photo-1601987077677-5346c0c57d3f?q=80&w=1000" alt="Team International">
+                            <div class="slide-content">
+                                <h3 class="slide-title">Global Recognition</h3>
+                                <p>International Team Champions - 2025 International Alliance Championship</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://images.unsplash.com/photo-1549060279-7e168fce7090?q=80&w=1000" alt="Champion Celebration">
+                            <div class="slide-content">
+                                <h3 class="slide-title">World Class Performance</h3>
+                                <p>Showcasing Sri Lankan excellence - 2025 International Alliance Championship</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Classes Section - Redesigned -->
+    <section id="classes">
+        <div class="container">
+            <h2 class="section-title">Training Programs</h2>
+            <p class="section-subtitle">Learn from the masters. Our Shihan and Sensei provide personalized training for all levels.</p>
+            
+            <!-- Shihan Section -->
+            <div class="instructor-category">
+                <h3 class="category-title">SHIHAN</h3>
+                <div class="instructors-grid">
+                    <div class="instructor-card">
+                        <div class="instructor-header">
+                            <div class="instructor-rank">GRAND MASTER</div>
+                            <div class="instructor-avatar">S</div>
+                            <h3 class="instructor-name">Shihan Suresh</h3>
+                            <p class="instructor-title">8th Dan Black Belt - 35+ Years Experience</p>
+                            <div class="instructor-experience">
+                                <div class="experience-item">
+                                    <span class="experience-number">35+</span>
+                                    <span class="experience-label">Years</span>
+                                </div>
+                                <div class="experience-item">
+                                    <span class="experience-number">500+</span>
+                                    <span class="experience-label">Students</span>
+                                </div>
+                                <div class="experience-item">
+                                    <span class="experience-number">50+</span>
+                                    <span class="experience-label">Champions</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="classes-list">
+                            <div class="class-item" onclick="showClassDetails('master-circle')">
+                                <div class="class-item-header">
+                                    <h4 class="class-name">Master's Circle</h4>
+                                    <span class="class-level">Advanced</span>
+                                </div>
+                                <div class="class-schedule">
+                                    <div class="schedule-item">
+                                        <i class="fas fa-calendar"></i>
+                                        <span>By Appointment</span>
+                                    </div>
+                                    <div class="schedule-item">
+                                        <i class="fas fa-clock"></i>
+                                        <span>2 Hours</span>
+                                    </div>
+                                    <div class="schedule-item">
+                                        <i class="fas fa-user"></i>
+                                        <span>5th Dan+ Only</span>
+                                    </div>
+                                </div>
+                                <p class="class-details">Exclusive mentorship for advanced practitioners. Focus on leadership, advanced combat systems, and philosophical mastery.</p>
+                            </div>
+                            
+                            <div class="class-item" onclick="showClassDetails('black-belt-mentorship')">
+                                <div class="class-item-header">
+                                    <h4 class="class-name">Black Belt Mentorship</h4>
+                                    <span class="class-level">Elite</span>
+                                </div>
+                                <div class="class-schedule">
+                                    <div class="schedule-item">
+                                        <i class="fas fa-calendar"></i>
+                                        <span>Saturday 9AM</span>
+                                    </div>
+                                    <div class="schedule-item">
+                                        <i class="fas fa-clock"></i>
+                                        <span>3 Hours</span>
+                                    </div>
+                                    <div class="schedule-item">
+                                        <i class="fas fa-user"></i>
+                                        <span>1st-4th Dan</span>
+                                    </div>
+                                </div>
+                                <p class="class-details">Intensive training for black belts focusing on advanced techniques, tournament strategy, and teaching methodology.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Sensei Section -->
+            <div class="instructor-category">
+                <h3 class="category-title">SENSEI</h3>
+                <div class="instructors-grid">
+                    <div class="instructor-card">
+                        <div class="instructor-header">
+                            <div class="instructor-rank">SENIOR SENSEI</div>
+                            <div class="instructor-avatar">A</div>
+                            <h3 class="instructor-name">Sensei Anura</h3>
+                            <p class="instructor-title">5th Dan Black Belt - National Champion</p>
+                            <div class="instructor-experience">
+                                <div class="experience-item">
+                                    <span class="experience-number">15+</span>
+                                    <span class="experience-label">Years</span>
+                                </div>
+                                <div class="experience-item">
+                                    <span class="experience-number">200+</span>
+                                    <span class="experience-label">Students</span>
+                                </div>
+                                <div class="experience-item">
+                                    <span class="experience-number">25+</span>
+                                    <span class="experience-label">Wins</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="classes-list">
+                            <div class="class-item" onclick="showClassDetails('competition-training')">
+                                <div class="class-item-header">
+                                    <h4 class="class-name">Competition Training</h4>
+                                    <span class="class-level">Advanced</span>
+                                </div>
+                                <div class="class-schedule">
+                                    <div class="schedule-item">
+                                        <i class="fas fa-calendar"></i>
+                                        <span>Mon/Wed/Fri 7PM</span>
+                                    </div>
+                                    <div class="schedule-item">
+                                        <i class="fas fa-clock"></i>
+                                        <span>1.5 Hours</span>
+                                    </div>
+                                    <div class="schedule-item">
+                                        <i class="fas fa-user"></i>
+                                        <span>Color Belts+</span>
+                                    </div>
+                                </div>
+                                <p class="class-details">Tournament preparation with focus on sparring techniques, competition strategy, and mental conditioning.</p>
+                            </div>
+                            
+                            <div class="class-item" onclick="showClassDetails('technique-mastery')">
+                                <div class="class-item-header">
+                                    <h4 class="class-name">Technique Mastery</h4>
+                                    <span class="class-level">Intermediate</span>
+                                </div>
+                                <div class="class-schedule">
+                                    <div class="schedule-item">
+                                        <i class="fas fa-calendar"></i>
+                                        <span>Tue/Thu 6PM</span>
+                                    </div>
+                                    <div class="schedule-item">
+                                        <i class="fas fa-clock"></i>
+                                        <span>1 Hour</span>
+                                    </div>
+                                    <div class="schedule-item">
+                                        <i class="fas fa-user"></i>
+                                        <span>Yellow-Brown</span>
+                                    </div>
+                                </div>
+                                <p class="class-details">Refine fundamental techniques, kata precision, and build strong foundation for black belt progression.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="instructor-card">
+                        <div class="instructor-header">
+                            <div class="instructor-rank">SENSEI</div>
+                            <div class="instructor-avatar">R</div>
+                            <h3 class="instructor-name">Sensei Rohan</h3>
+                            <p class="instructor-title">3rd Dan Black Belt - Youth Specialist</p>
+                            <div class="instructor-experience">
+                                <div class="experience-item">
+                                    <span class="experience-number">10+</span>
+                                    <span class="experience-label">Years</span>
+                                </div>
+                                <div class="experience-item">
+                                    <span class="experience-number">150+</span>
+                                    <span class="experience-label">Students</span>
+                                </div>
+                                <div class="experience-item">
+                                    <span class="experience-number">12+</span>
+                                    <span class="experience-label">Youth Champs</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="classes-list">
+                            <div class="class-item" onclick="showClassDetails('kids-karate')">
+                                <div class="class-item-header">
+                                    <h4 class="class-name">Kids Karate (6-12)</h4>
+                                    <span class="class-level">Beginner</span>
+                                </div>
+                                <div class="class-schedule">
+                                    <div class="schedule-item">
+                                        <i class="fas fa-calendar"></i>
+                                        <span>Sat 10AM & 2PM</span>
+                                    </div>
+                                    <div class="schedule-item">
+                                        <i class="fas fa-clock"></i>
+                                        <span>1 Hour</span>
+                                    </div>
+                                    <div class="schedule-item">
+                                        <i class="fas fa-user"></i>
+                                        <span>Ages 6-12</span>
+                                    </div>
+                                </div>
+                                <p class="class-details">Fun, engaging classes focusing on discipline, respect, coordination, and basic karate fundamentals.</p>
+                            </div>
+                            
+                            <div class="class-item" onclick="showClassDetails('teen-program')">
+                                <div class="class-item-header">
+                                    <h4 class="class-name">Teen Program (13-17)</h4>
+                                    <span class="class-level">All Levels</span>
+                                </div>
+                                <div class="class-schedule">
+                                    <div class="schedule-item">
+                                        <i class="fas fa-calendar"></i>
+                                        <span>Mon/Wed 5PM</span>
+                                    </div>
+                                    <div class="schedule-item">
+                                        <i class="fas fa-clock"></i>
+                                        <span>1.5 Hours</span>
+                                    </div>
+                                    <div class="schedule-item">
+                                        <i class="fas fa-user"></i>
+                                        <span>Teens Only</span>
+                                    </div>
+                                </div>
+                                <p class="class-details">Building confidence, focus, and self-defense skills while preparing for belt progression and competitions.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="instructor-card">
+                        <div class="instructor-header">
+                            <div class="instructor-rank">SENSEI</div>
+                            <div class="instructor-avatar">K</div>
+                            <h3 class="instructor-name">Sensei Kamal</h3>
+                            <p class="instructor-title">2nd Dan Black Belt - Fitness Specialist</p>
+                            <div class="instructor-experience">
+                                <div class="experience-item">
+                                    <span class="experience-number">8+</span>
+                                    <span class="experience-label">Years</span>
+                                </div>
+                                <div class="experience-item">
+                                    <span class="experience-number">100+</span>
+                                    <span class="experience-label">Students</span>
+                                </div>
+                                <div class="experience-item">
+                                    <span class="experience-number">Certified</span>
+                                    <span class="experience-label">Trainer</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="classes-list">
+                            <div class="class-item" onclick="showClassDetails('adult-beginners')">
+                                <div class="class-item-header">
+                                    <h4 class="class-name">Adult Beginners</h4>
+                                    <span class="class-level">Beginner</span>
+                                </div>
+                                <div class="class-schedule">
+                                    <div class="schedule-item">
+                                        <i class="fas fa-calendar"></i>
+                                        <span>Tue/Thu 7PM</span>
+                                    </div>
+                                    <div class="schedule-item">
+                                        <i class="fas fa-clock"></i>
+                                        <span>1 Hour</span>
+                                    </div>
+                                    <div class="schedule-item">
+                                        <i class="fas fa-user"></i>
+                                        <span>All Welcome</span>
+                                    </div>
+                                </div>
+                                <p class="class-details">Perfect start for adults. Learn fundamentals, build fitness, and develop confidence in a supportive environment.</p>
+                            </div>
+                            
+                            <div class="class-item" onclick="showClassDetails('fitness-karate')">
+                                <div class="class-item-header">
+                                    <h4 class="class-name">Fitness Karate</h4>
+                                    <span class="class-level">All Levels</span>
+                                </div>
+                                <div class="class-schedule">
+                                    <div class="schedule-item">
+                                        <i class="fas fa-calendar"></i>
+                                        <span>Sat 9AM</span>
+                                    </div>
+                                    <div class="schedule-item">
+                                        <i class="fas fa-clock"></i>
+                                        <span>1 Hour</span>
+                                    </div>
+                                    <div class="schedule-item">
+                                        <i class="fas fa-user"></i>
+                                        <span>Adults Only</span>
+                                    </div>
+                                </div>
+                                <p class="class-details">High-intensity workout combining karate techniques with fitness training for overall health and conditioning.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section id="social-media">
+        <div class="container">
+            <h2 class="section-title">Connect With Us</h2>
+            <p class="section-subtitle">Stay updated with our latest achievements, training tips, and community events.</p>
+            
+            <div class="social-grid">
+                <div class="social-card">
+                    <div class="social-icon" style="background: #1877F2;">
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                    <h3>Facebook</h3>
+                    <p>Join our community for updates, event photos, and training videos. Interact with fellow practitioners.</p>
+                    <a href="https://facebook.com/shitokukai" target="_blank" class="social-link">
+                        <i class="fab fa-facebook-f"></i>
+                        <span>Follow Us</span>
+                    </a>
+                </div>
+                
+                <div class="social-card">
+                    <div class="social-icon" style="background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <h3>Instagram</h3>
+                    <p>Daily training highlights, tournament moments, and behind-the-scenes content from our dojo.</p>
+                    <a href="https://instagram.com/shitokukai" target="_blank" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                        <span>Follow Us</span>
+                    </a>
+                </div>
+                
+                <div class="social-card">
+                    <div class="social-icon" style="background: #FF0000;">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <h3>YouTube</h3>
+                    <p>Training tutorials, competition highlights, and educational content about full-contact karate.</p>
+                    <a href="https://youtube.com/shitokukai" target="_blank" class="social-link">
+                        <i class="fab fa-youtube"></i>
+                        <span>Subscribe</span>
+                    </a>
+                </div>
+                
+                <div class="social-card">
+                    <div class="social-icon" style="background: #25D366;">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3>WhatsApp Group</h3>
+                    <p>Join our community group for instant updates, class schedules, and direct communication with instructors.</p>
+                    <a href="https://wa.me/94771234567" target="_blank" class="social-link">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>Join Group</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Begin Your Journey</h2>
+            <p class="section-subtitle">Ready to transform your life through karate? Contact us today for a free trial class or consultation.</p>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <strong>Headquarters</strong>
+                            <p>Shitoku-kai Karate Dojo<br>
+                            123 Martial Way, Negombo<br>
+                            Western Province, Sri Lanka</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <strong>Phone & WhatsApp</strong>
+                            <p>+94 77 123 4567<br>
+                            +94 11 234 5678</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <strong>Email</strong>
+                            <p>info@shitokukai.lk<br>
+                            training@shitokukai.lk</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <strong>Training Schedule</strong>
+                            <p>Weekdays: 5:00 PM - 9:00 PM<br>
+                            Weekends: 9:00 AM - 1:00 PM<br>
+                            Private Sessions Available</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://facebook.com/shitokukai" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://instagram.com/shitokukai" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://youtube.com/shitokukai" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="https://wa.me/94771234567" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3>Registration</h3>
+                    <p style="color: #ddd; margin-bottom: 2rem;">Experience authentic full-contact karate. Fill out this form to schedule your first class.</p>
+                    
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="fullName">Full Name *</label>
+                            <input type="text" id="fullName" required placeholder="Enter your full name">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" required placeholder="your.email@example.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" required placeholder="+94 XX XXX XXXX">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="interest">Program Interest *</label>
+                            <select id="interest" required>
+                                <option value="">Select a program</option>
+                                <option value="kids">Kids Karate (6-12)</option>
+                                <option value="teens">Teen Program (13-17)</option>
+                                <option value="adult-beginner">Adult Beginners</option>
+                                <option value="competition">Competition Training</option>
+                                <option value="black-belt">Black Belt Program</option>
+                                <option value="private">Private Lessons</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Your Goals & Message</label>
+                            <textarea id="message" placeholder="Tell us about your martial arts goals, experience level, and any questions..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">
+                            <span>Request Free Trial</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating Action Buttons -->
+    <div class="fab-container">
+        <button class="fab" onclick="window.open('tel:+94112345678')" title="Call Us">
+            <i class="fas fa-phone"></i>
+        </button>
+        <button class="fab" onclick="window.location.href='#contact'" title="Free Trial">
+            <i class="fas fa-calendar-check"></i>
+        </button>
+        <button class="fab" onclick="window.open('https://wa.me/94771234567')" title="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </button>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <div class="footer-logo">SHITOKU<span>-KAI</span></div>
+                <p class="footer-description">Sri Lanka's premier full-contact karate organization. Forging champions in body, mind, and character since inception.</p>
+                <div class="social-links">
+                    <a href="https://facebook.com/shitokukai" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://instagram.com/shitokukai" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://youtube.com/shitokukai" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="https://tiktok.com/@shitokukai" target="_blank"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-col">
+                <h3 class="footer-title">Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#about"><i class="fas fa-info-circle"></i> About Us</a></li>
+                    <li><a href="#classes"><i class="fas fa-users"></i> Classes</a></li>
+                    <li><a href="#achievements"><i class="fas fa-trophy"></i> Achievements</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-col">
+                <h3 class="footer-title">Programs</h3>
+                <ul class="footer-links">
+                    <li><a href="#classes"><i class="fas fa-user-graduate"></i> Black Belt Training</a></li>
+                    <li><a href="#classes"><i class="fas fa-child"></i> Kids Karate</a></li>
+                    <li><a href="#classes"><i class="fas fa-trophy"></i> Competition Team</a></li>
+                    <li><a href="#classes"><i class="fas fa-user-friends"></i> Private Lessons</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-col">
+                <h3 class="footer-title">Contact Info</h3>
+                <ul class="footer-links">
+                    <li><a href="#"><i class="fas fa-map-marker-alt"></i> Negombo, Sri Lanka</a></li>
+                    <li><a href="tel:+94112345678"><i class="fas fa-phone"></i> +94 11 234 5678</a></li>
+                    <li><a href="mailto:info@shitokukai.lk"><i class="fas fa-envelope"></i> info@shitokukai.lk</a></li>
+                    <li><a href="#"><i class="fas fa-clock"></i> Mon-Sat: 5PM-9PM</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; 2022 Shitoku-kai Full Contact Karate. All Rights Reserved. | Martial arts is entrance to reach (Shi) to virtue (Toku)</p>
+        </div>
+    </footer>
+
+    <!-- JotForm Chatbot Container -->
+    <div id="jotform-chat"></div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
